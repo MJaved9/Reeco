@@ -1,0 +1,55 @@
+.NavBarWrapper {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e633f;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.NavImg,
+.ProfileButton {
+  width: auto;
+  object-fit: contain;
+  margin: 0 20px;
+
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.NavOptionsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  flex-grow: 1;
+  gap: 10px;
+}
+.NavOptionsWrapper-1 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  flex-grow: 1;
+  gap: 10px;
+}
+
+.NavOption {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.CheckoutButton {
+  border-radius: 10px;
+  cursor: pointer;
+}

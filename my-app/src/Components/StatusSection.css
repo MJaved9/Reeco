@@ -1,0 +1,43 @@
+/* StatusSection.css */
+
+.stats-wrapper {
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .status-list {
+    background-color: white;
+    border-radius: 5px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .status-list-item {
+    border-right: 1px solid #d1d1d1;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 25px;
+    width: 200px;
+  }
+  
+  .status-list-item:last-child {
+    border-right: none;
+  }
+  
+  .status-text-1 {
+    font-weight: lighter;
+    line-height: 1.3;
+  }
+  
+  .status-text-2 {
+    font-weight: bold;
+    line-height: 1.3;
+  }
+  
+  

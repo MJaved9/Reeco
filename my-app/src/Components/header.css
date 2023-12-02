@@ -1,0 +1,65 @@
+/* HeaderSection.css */
+
+header {
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 9px;
+  }
+  
+  .breadcrumbs {
+    display: flex;
+    width: 15%;
+    /* padding-top: 10px; */
+  }
+  
+  .breadcrumbs-text {
+    font-weight: lighter;
+    line-height: 0.3;
+  }
+  
+  .breadcrumbs-text:last-child {
+    text-decoration: underline;
+    padding-left: 7px;
+  }
+  
+  .order-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 4px;
+    padding-bottom: 5px; */
+  }
+  
+  /* .heading {
+    font-size: 0.25rem;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1;
+  } */
+  
+  .button-wrapper {
+    display:flex;
+    /* justify-content:space-between; */
+    gap:20PX;
+    /* border: 2px solid gray; */
+  }
+  
+  .back-button {
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    color: #adadad;
+    border: 0.5px solid #adadad;
+    }
+.app-button {
+        border-radius: 20px;
+        padding: 0px 25px 0px 25px;
+        background-color:#1e633f;
+        color:white;
+        border: 0.5px solid #1e633f;
+        }
